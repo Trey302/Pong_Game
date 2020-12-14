@@ -10,7 +10,10 @@ let wall = new Audio();
 let userScore = new Audio();
 let comScore = new Audio();
 
-
+hit.src = "hit1.mp4";
+wall.src = "";
+comScore.src = "lose.mp4";
+userScore.src = "win.mp4";
 
 // Ball object
 const ball = {
