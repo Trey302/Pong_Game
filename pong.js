@@ -136,7 +136,7 @@ function update(){
     
     
     
-    com.y += ((ball.y - (com.y + com.height/2)))*0.1;
+    com.y += ((ball.y - (com.y + com.height/1.45)))*0.1;
     
    
     if(ball.y - ball.radius < 0 || ball.y + ball.radius > canvas.height){
